@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exp1.css">
+</head>
+
+<body>
+    <nav class="headliner">
+        <h2 class="heading">DailyScope.</h2>
+        <div class="buttonsclass">
+        <a href="#" class="buttons" id="latest" onclick="onNavItemClick('latest')">Latest</a>
+        <a href="#" class="buttons" id="sports" onclick="onNavItemClick('sports')">Sports</a>
+        <a href="#" class="buttons" id="tech" onclick="onNavItemClick('tech')">Tech</a>
+        <a href="#" class="buttons" id="entertainment" onclick="onNavItemClick('entertainment')">Entertainment</a>
+        </div>
+        <div class="sidebuttons">
+            <img src="searchicon.png" class="icons">
+            <img src="bell.png" class="icons">
+            <img src="headshot2.jpeg" class="headshot">
+        </div>
+    </nav>
+    
+    <template id="template-news-card">
+    <div class="card-container" id="card-container">
+        <div class="card">
+            <div class="card_header">
+            <img src="https://placehold.co/400x200" alt="image">
+        </div>
+        <div class="card_content">
+            <h3 id="news_title">This is Title</h3>
+            <h6 class="news_source" id="news_source">THis is news source</h6>
+            <p class="news_desc" id="news_desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, ipsa consectetur dignissimos ab ipsum vitae esse animi sed hic veritatis facilis aut nihil dolor dolorem tenetur mollitia numquam cumque unde.</p>
+
+        </div>
+    </div>
+        
+    </div>
+</template>
+</body>
+
+<script src="exp1.js"></script>
+</html>
